@@ -1,15 +1,13 @@
 {
-	"name": "magiclyde/container",
-	"type": "library",
-	"keywords": ["psr-11", "container", "dependency", "injection"],
+    "name": "magiclyde/container",
+    "type": "library",
+    "keywords": ["psr-11", "container", "dependency", "injection"],
     "homepage": "https://github.com/magiclyde/container",
-	"authors": [
-        {
-            "name": "Clyde Chan",
-            "email": "magiclyde@163.com",
-            "homepage": "https://magiclyde.me"
-        }
-    ],
+    "authors": [{
+        "name": "Clyde Chan",
+        "email": "magiclyde@163.com",
+        "homepage": "https://magiclyde.me"
+    }],
     "require": {
         "psr/container": "^1.0"
     },

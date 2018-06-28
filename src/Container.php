@@ -3,7 +3,6 @@ namespace Magic\Container;
 
 use Psr\Container\ContainerInterface;
 
-
 /**
  * Psr container
  * 
@@ -11,8 +10,8 @@ use Psr\Container\ContainerInterface;
  */
 class Container implements ContainerInterface
 {
-	
-	/**
+
+    /**
      * Finds an entry of the container by its identifier and returns it.
      *
      * @param string $id Identifier of the entry to look for.
@@ -22,12 +21,12 @@ class Container implements ContainerInterface
      *
      * @return mixed Entry.
      */
-	public function get($id)
-	{
+    public function get($id)
+    {
+        
+    }
 
-	}
-
-	/**
+    /**
      * Returns true if the container can return an entry for the given identifier.
      * Returns false otherwise.
      *
@@ -38,10 +37,10 @@ class Container implements ContainerInterface
      *
      * @return bool
      */
-	public function has($id)
-	{
-
-	}
+    public function has($id)
+    {
+        
+    }
 
 
 }
